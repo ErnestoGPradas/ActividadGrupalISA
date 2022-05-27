@@ -19,6 +19,12 @@ class TestUnitarios(unittest.TestCase):
     def test_resta2(self):
         self.assertEqual(CalculadoraCientifica.resta(5.8, 12), -6.2)
 
+    def test_raiz_cuadrada1(self):
+        self.assertEqual(CalculadoraCientifica.raiz_cuadrada(9), 3)
+
+    def test_raiz_cuadrada2(self):
+        self.assertEqual(CalculadoraCientifica.raiz_cuadrada(2), 1.4142135623730951)
+
 
 if __name__ == "__main__":
     unittest.main()
