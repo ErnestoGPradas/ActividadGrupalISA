@@ -14,6 +14,21 @@ def resta(a, b):
 
     return a - b
 
+# Comprobamos que los números introducidos son enteros o flotantes
+def multiplicacion(a, b):
+    for n in (a, b):
+        if not isinstance(n, int) and not isinstance(n, float):
+            raise TypeError
+
+    return a * b
+
+# Comprobamos que los números introducidos son enteros o flotantes
+def division(a, b):
+    for n in (a, b):
+        if not isinstance(n, int) and not isinstance(n, float):
+            raise TypeError
+
+    return a / b
 
 # La raíz cuadrada no es más que elevar cualquier número a 0.5.
 # Usaremos la función pow() de python que devuelve el valor de un número elevado a una potencia especificada.

@@ -36,12 +36,6 @@ class TestUnitarios(unittest.TestCase):
 
     def test_raiz_cuadrada2(self):
         self.assertEqual(CalculadoraCientifica.raiz_cuadrada(2), 1.4142135623730951)
-        
-    def test_exponencial1(self):
-        self.assertEqual(CalculadoraCientifica.exponencial(0), 1)
-
-    def test_exponencial2(self):
-        self.assertEqual(CalculadoraCientifica.exponencial(2), 7.389056099)
 
 
 if __name__ == "__main__":
