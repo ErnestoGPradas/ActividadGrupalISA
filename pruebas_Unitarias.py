@@ -30,6 +30,9 @@ class TestUnitarios(unittest.TestCase):
 
     def test_division2(self):
         self.assertEqual(CalculadoraCientifica.division(14, 4), 3.5)
+        
+    def test_division2(self):
+        self.assertEqual(CalculadoraCientifica.division(28, 0), "No se puede dividir entre 0")
 
     def test_raiz_cuadrada1(self):
         self.assertEqual(CalculadoraCientifica.raiz_cuadrada(9), 3)
